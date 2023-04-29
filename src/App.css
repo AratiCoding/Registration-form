@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+ 
+}
+body{
+  background-color: rgb(208, 193, 193);
+}
+form{
+   width: 400px;
+   height: 250px;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-top: 90px;
+  margin-left: 450px;
+  justify-content: space-between;
+  padding: 35px 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+ }
+ .inputbox{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 10px;
+  
+ }
+ input{
+  width: 300px;
+ }
+ .btn{
+
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 120px;
+  height: 40px;
+  margin-left: 140px;
+  border-radius: 9px;
+  background: rgb(247, 90, 63);
+  font-size: 17px;
+  transition: 0.7s;
+ }
+ .btn:hover{
+  background: rgb(5, 229, 5);
+  cursor: pointer;
+  
+ }
+ .showDataStyle{
+  /* display: flex;
+  flex-direction: row; */
+  border: 1px solid rgb(250, 246, 246);
+  width: 200px;
+  height: 120px;
+  border-radius: 5px;
+  margin-left: 510px;
+  margin-top: 40px;
+  background: white;
+  padding: 15px 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+
+ }
+ .showDataStyle p{
+  margin-top: 5px;
+ }
+
+
